@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "../Project4/card/Card.h"
+#include "../card/Card.h"
 #include "terminal/terminal.h"
 EN_terminalError_t getTransactionDate(ST_terminalData_t* termData)
 {

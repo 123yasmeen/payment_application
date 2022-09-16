@@ -2,8 +2,8 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
-#include"../Project4/card/Card.h"
-#include"../Project4/terminal/terminal.h"
+#include"../card/Card.h"
+#include"../terminal/terminal.h"
 #include"server/server.h"
 ST_accountsDB_t Accountdatabase[255] = { {25,RUNNING,"8945623985431754"},{300,BLOCKED,"8945623985431755"},{70000,RUNNING,"8945623985431756"},{100000,BLOCKED,"8945623985431757"} };
 ST_transaction Transatabase[255] = { 0 };
